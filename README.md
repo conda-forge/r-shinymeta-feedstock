@@ -1,11 +1,11 @@
-About r-shinymeta
-=================
+About r-shinymeta-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shinymeta-feedstock/blob/main/LICENSE.txt)
 
 Home: https://rstudio.github.io/shinymeta/, https://github.com/rstudio/shinymeta
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shinymeta-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides tools for capturing logic in a Shiny app and exposing it as code that can be run outside of Shiny (e.g., from an R console). It also provides tools for bundling both the code and results to the end user.
 
