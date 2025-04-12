@@ -1,4 +1,4 @@
-{% set version = '0.2.0.3' %}
+{% set version = "0.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/shinymeta_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/shinymeta/shinymeta_{{ version }}.tar.gz
-  sha256: 095dffe6d8763edf42eabf91f606aad12f3a08271fcd9d7257c2812775793fd2
+  sha256: 45e57d7d85ad834344d68d079eda9ac25ec030b4a93fc6ea93dbf754a68b044b
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -51,9 +51,7 @@ test:
 about:
   home: https://rstudio.github.io/shinymeta/, https://github.com/rstudio/shinymeta
   license: GPL-3.0-only
-  summary: Provides tools for capturing logic in a Shiny app and exposing it as code that can
-    be run outside of Shiny (e.g., from an R console). It also provides tools for bundling
-    both the code and results to the end user.
+  summary: Provides tools for capturing logic in a Shiny app and exposing it as code that can be run outside of Shiny (e.g., from an R console). It also provides tools for bundling both the code and results to the end user.
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
