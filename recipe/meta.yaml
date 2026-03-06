@@ -1,4 +1,4 @@
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/shinymeta_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/shinymeta/shinymeta_{{ version }}.tar.gz
-  sha256: 45e57d7d85ad834344d68d079eda9ac25ec030b4a93fc6ea93dbf754a68b044b
+  sha256: cc7e08d2a6b2a8f9e09658cd327163b681cd5629b1aa72191502d1b88a8baf07
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
